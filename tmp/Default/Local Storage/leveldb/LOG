@@ -1,5 +1,14 @@
-2025/06/12-21:27:29.859 a38 Reusing MANIFEST C:\Users\SamoL\OneDrive\Programmieren\Puppeteer\tmp\Default\Local Storage\leveldb/MANIFEST-000001
-2025/06/12-21:27:29.870 a38 Recovering log #90
-2025/06/12-21:27:29.870 a38 Level-0 table #93: started
-2025/06/12-21:27:29.884 a38 Level-0 table #93: 18951 bytes OK
-2025/06/12-21:27:29.900 a38 Delete type=0 #90
+2025/06/24-20:41:27.963 312c Reusing MANIFEST C:\Users\SamoL\OneDrive\Programmieren\Puppeteer\tmp\Default\Local Storage\leveldb/MANIFEST-000001
+2025/06/24-20:41:27.983 312c Recovering log #100
+2025/06/24-20:41:27.991 312c Level-0 table #102: started
+2025/06/24-20:41:28.009 312c Level-0 table #102: 59484 bytes OK
+2025/06/24-20:41:28.025 312c Delete type=0 #100
+2025/06/24-20:41:28.032 7f0 Compacting 4@0 + 1@1 files
+2025/06/24-20:41:28.077 7f0 Generated table #104@0: 17 keys, 53914 bytes
+2025/06/24-20:41:28.078 7f0 Compacted 4@0 + 1@1 files => 53914 bytes
+2025/06/24-20:41:28.080 7f0 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/06/24-20:41:28.084 7f0 Delete type=2 #91
+2025/06/24-20:41:28.084 7f0 Delete type=2 #93
+2025/06/24-20:41:28.092 7f0 Delete type=2 #96
+2025/06/24-20:41:28.092 7f0 Delete type=2 #99
+2025/06/24-20:41:28.093 7f0 Delete type=2 #102

@@ -1,3 +1,8 @@
-2025/06/12-21:27:30.009 a38 Reusing MANIFEST C:\Users\SamoL\OneDrive\Programmieren\Puppeteer\tmp\Default\Session Storage/MANIFEST-000001
-2025/06/12-21:27:30.015 a38 Recovering log #21
-2025/06/12-21:27:30.022 a38 Reusing old log C:\Users\SamoL\OneDrive\Programmieren\Puppeteer\tmp\Default\Session Storage/000021.log 
+2025/06/24-20:41:28.184 312c Reusing MANIFEST C:\Users\SamoL\OneDrive\Programmieren\Puppeteer\tmp\Default\Session Storage/MANIFEST-000001
+2025/06/24-20:41:28.191 312c Recovering log #21
+2025/06/24-20:41:28.192 312c Level-0 table #24: started
+2025/06/24-20:41:28.207 312c Level-0 table #24: 26335 bytes OK
+2025/06/24-20:41:28.208 312c Recovering log #24
+2025/06/24-20:41:28.214 312c Reusing old log C:\Users\SamoL\OneDrive\Programmieren\Puppeteer\tmp\Default\Session Storage/000024.log 
+2025/06/24-20:41:28.221 312c Delete type=0 #21
+2025/06/24-20:41:28.221 312c Delete type=2 #25

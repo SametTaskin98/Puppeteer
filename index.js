@@ -63,7 +63,7 @@ while (!buttonIsDisabled) {
             items.push({ title, price, image });
             //console.log(items.length);
 
-            fs.appendFile('results.csv', `${title},${price},${image}\n`, function (err) {
+            fs.appendFileSync('newResults.csv', `${title},${price},${image}\n`, function (err) {
                 if (err) throw err;
                 console.log('Saved!');
             });
@@ -74,7 +74,7 @@ while (!buttonIsDisabled) {
 
     } await page.waitForSelector("a.s-pagination-item.s-pagination-next", { visible: true });
     console.log(items.length);
-    // "Schau nach, ob ein Element mit diesen Klassen im HTML existiert – wenn ja, dann setze isDisabled auf true, wenn nein, auf false
+    // "Schau nach, ob ein Element mit diesen Klassen im HTML existiert, wenn ja, dann setze isDisabled auf true, wenn nein, auf false
     // Wenn das Ergebnis !== null ist, dann gib uns true aus 
     const disabledButtonExists = await page.$('span.s-pagination-item.s-pagination-next.s-pagination-disabled') !== null;
 
@@ -86,6 +86,7 @@ while (!buttonIsDisabled) {
             await new Promise(resolve => setTimeout(resolve, 5000)),
         ]);
     }
+
     /* const nextButton = await page.$('a.s-pagination-item.s-pagination-next.s-pagination-button.s-pagination-button-accessibility.s-pagination-separator') !== null;
     // nextButton ist einfach nur ein true/ false Wert, wenn es ungleich null ist, also existiert dann wird der Wert TRUE gesetzt, 
     // bedeutet wenn wir in der If aber !nextButton haben dan wird es !True also False !!!
