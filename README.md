@@ -41,7 +41,7 @@ npm install
 
 ###  Schritt 1: Name der csv eintragen
 
-![Name eingetragen](./screenshots (for readme)/1.PNG)
+![Name eingetragen](./screenshots_readme/1.PNG)
 
 In Zeile 66 sollte zunächst ein Name für die CSV-Datei eingetragen werden – zum Beispiel "beliebigerName.csv"
 Die URL kann bei Bedarf in Zeile 22 angepasst werden – sie sollte jedoch weiterhin eine Amazon-Seite bleiben.
@@ -61,7 +61,7 @@ kannst du das Skript starten. Danach öffnet sich automatisch ein Browser, der d
 
 ###   Schritt 3: Daten werden extrahiert
 
-![Extraktion](./screenshots (for readme)/3.PNG)
+![Extraktion](./screenshots_readme/3.PNG)
 
 Pro Seite werden in diesem Fall 61 Objekte extrahiert. Sobald das Skript eine neue Seite geladen hat, beginnt die Extraktion erneut. Am Ende wird die Gesamtanzahl der extrahierten Objekte in der Konsole ausgegeben.
 
@@ -71,6 +71,6 @@ Pro Seite werden in diesem Fall 61 Objekte extrahiert. Sobald das Skript eine ne
 
 Die extrahierten Daten werden automatisch in der Datei `beliebigerName.csv` gespeichert. Die Datei enthält alle erfassten Produktinformationen.
 
-![CSV-Datei](./screenshots (for readme)/4.PNG)
+![CSV-Datei](./screenshots_readme/4.PNG)
 
 
